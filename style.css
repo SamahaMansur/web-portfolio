@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+.name
+{
+    color: orange;
+}
+
+.doc
+{
+    color: blue;
+    font-size: 30px;
+}
+
+.love
+{
+    color: red;
+}
+
+.half-width
+{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img
+{
+    width: 100%;
+}
