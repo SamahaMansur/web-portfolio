@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Source Serif Pro', serif;
+    margin: 0;
 }
 
 h1
@@ -8,7 +9,17 @@ h1
     font-size: 50px;
 }
 
-.name
+h2{
+    font-size: 40px;
+}
+
+p
+{
+    color: dimgray;
+    font-size: 22px;
+}
+
+.orange-highlight
 {
     color: orange;
 }
@@ -24,15 +35,107 @@ h1
     color: red;
 }
 
+.lekha
+{
+    width: 60%;
+    height: 530px;
+    float: left;
+    margin: 0% 5% 0% 4%;
+}
+
+.pic img
+{
+    width: 30%;
+    height: 535px;
+    margin-right: 0%;
+    margin-top: 1%;
+}
+
+
+.pic2 img
+{
+    width: 45%;
+    height: 535px;
+    margin-top: 1%;
+    float: left;
+}
+
+.lekha2
+{
+    width: 40%;
+    height: 535px;
+    padding: 10px 15px 5px 5px;    
+    margin-top: 10px;
+    margin-right: 7%;
+    float: right;
+}
+
 .half-width
 {
     width: 40%;
+    height: 80%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding: 5px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    background-color: white;
 }
 
-.half-width img
+.experience
 {
-    width: 100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.top-banner
+{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.dream
+{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section
+{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.profile-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+#internship
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#fcps
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 12px;
 }
